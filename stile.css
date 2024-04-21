@@ -1,0 +1,28 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    
+}
+body{
+    background-color: blue;
+}
+main{
+    height: fit-content;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    
+}
+.box{
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-style: dashed;
+    height: 3rem;
+    width: 3rem;
+    margin:1rem
+    
+}
