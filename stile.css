@@ -9,6 +9,8 @@ body{
     background-color: blue;
 }
 main{
+    border-radius: 10px;
+    background-color: burlywood;
     height: fit-content;
     display: flex;
     flex-wrap: wrap;
@@ -16,13 +18,28 @@ main{
     
 }
 .box{
-    color: aliceblue;
+    border-radius: 5px;
+    background-color: rgb(75, 75, 211);
+    color: rgb(0, 0, 0);
     display: flex;
     justify-content: center;
     align-items: center;
-    border-style: dashed;
-    height: 3rem;
-    width: 3rem;
+    /* border-style: dashed; */
+    height: 5rem;
+    width: 5rem;
     margin:1rem
     
+    
 }
+.tre{
+    background-color: rgb(216, 18, 199);
+}
+.cinque{
+    background-color: rgb(23, 196, 17);
+}
+.entrambe{
+    background-color: brown;
+}
+/* #p{
+    background-color: brown;
+} */
