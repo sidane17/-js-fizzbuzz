@@ -6,7 +6,11 @@ let st=document.getElementById("main");
         console.log("tre")
     st+=`<div class="box tre">buzz</div>`;
       
-    }else if(i%5==0){
+    }else{
+        st+=`<div class="box ">${i}</div>`;
+    }
+    
+    if(i%5==0){
         console.log("cinque")
         st+=`<div class="box cinque">fizz</div>`;
 
@@ -15,9 +19,9 @@ let st=document.getElementById("main");
         console.log("2")
         st+=`<div class="box entrambe">FizzBuzz</div>`;
 
-    }else{
-        st+=`<div class="box ">${i}</div>`;
     }
+        
+    
     
     
 
